@@ -1,7 +1,14 @@
 
-# For [section 17](https://www.udemy.com/course/react-redux/learn/lecture/12531424#overview) of the course
+---
+
+# Official "demo example" for React-Redux
+## definitely examine it before diving into any course
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+
+
 
 ## Available Scripts
 
