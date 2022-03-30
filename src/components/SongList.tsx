@@ -1,8 +1,10 @@
 import React, {Fragment} from "react";
-import {useAppSelector} from "../redux/app/hooks";
+import * as fromStore from '../store'
+const {useAppSelector} = fromStore.hooks;
+const {selectSongList} = fromStore.selectors.song
 
 export const SongList: React.FC = () => {
-    const songList = useAppSelector(state => state.songList);
+    const songList = useAppSelector(selectSongList);
     return (
         <Fragment>
             {songList.map(song => <h1>{song.title}</h1>)}
